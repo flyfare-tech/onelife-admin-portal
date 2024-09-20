@@ -1,0 +1,57 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Profile section styles */
+#profile-section {
+    display: flex;
+    align-items: center;
+}
+
+#profile-button {
+    cursor: pointer;
+}
+
+#profile-dropdown {
+    display: none;
+}
+
+#profile-dropdown.show {
+    display: block;
+}
+
+/* Sidebar styles */
+aside {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-right: 1px solid #e9ecef;
+}
+
+/* Activity list styles */
+#activity-list li {
+    padding: 0.5rem;
+    border-bottom: 1px solid #e9ecef;
+    cursor: pointer;
+}
+
+#activity-list li:hover {
+    background-color: #f1f1f1;
+}
+
+/* Activity details styles */
+#activity-details {
+    background-color: #ffffff;
+    padding: 1rem;
+    border: 1px solid #e9ecef;
+    border-radius: 0.25rem;
+}
